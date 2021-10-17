@@ -1,5 +1,4 @@
 #bab 5
-'''
 import math
 
 x1 = int(input ("x1 = "))
@@ -10,9 +9,9 @@ y2 = int(input ("y2 = "))
 jarak = math.sqrt((x2 - x1) ** 2 + \
     (y2 - y1) ** 2)
 print ("Jarak = %.2f" %jarak)
-'''
 
-'''
+
+
 # Angsuran pinjaman model flat
 import math
 
@@ -27,9 +26,9 @@ angsuran = pokok * (1 / tempoDalamBulan +
 
 # Tampilkan hasil
 print ("Angsuran per bulan = ", math.ceil(angsuran)) 
-'''
 
-'''
+
+
 # Jarak lat Long
 import math
 
@@ -58,11 +57,11 @@ jarak = rbumi * math.acos((math.sin(lintang1) *
 
 #Tampilkan hasilnya
 print ('Jarak dalam KM = ', jarak)
-'''
+
 
 
 #Penjualan dengan diskon jika >=200000
-'''print('Penjualan Barang')
+print('Penjualan Barang')
 print('----------------')
 
 beli = int(input('Harga beli = '))
@@ -72,30 +71,30 @@ if beli >= 200000:
     diskon = 0.05 * beli
 
 jumlah = beli - diskon
-print('Total harga Rp', jumlah)'''
+print('Total harga Rp', jumlah)
 
 #nomor 11
-'''nilai = int(input('Nilai = '))
+nilai = int(input('Nilai = '))
 if nilai>= 60:
     lulus = True
 else: lulus = False
-print(lulus)'''
+print(lulus)
 
 #nomor 12
-'''a = int(input('a = '))
+a = int(input('a = '))
 if a > 3:
     print(a, 'lebih dari 3')
 else:
-    print(a, 'tidak lebih dari 3')'''
+    print(a, 'tidak lebih dari 3')
 
-'''x = int(input('x = '))
+x = int(input('x = '))
 if x == 0:
     print('nol')
 else:
-    print('bukan nol')'''
+    print('bukan nol')
 
 #nomor 13
-'''a = int(input('a = '))
+a = int(input('a = '))
 b = int(input('b = '))
 c = int(input('c = '))
 
@@ -104,10 +103,12 @@ if a == b or b == c or a == c:
 else:
     print('a = ', a)
     print('b = ', b)
-    print('c = ', c)'''
+    print('c = ', c)
+
+
 
 #nomor 14
-'''print('Harga papan Arduino Uno')
+print('Harga papan Arduino Uno')
 print('-----------------------')
 kuantitas = int(input('Masukkan kuantitas = '))
 if kuantitas >100:
@@ -133,4 +134,4 @@ elif kuantitas >= 6:
 else:
     print("Harga per Unit = 78.000")
     harga = kuantitas * 78000
-    print('Total harga = Rp', harga)'''
+    print('Total harga = Rp', harga)
